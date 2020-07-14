@@ -33,7 +33,7 @@ end
     
     case_params [:operation]
     when 'add'
-      
+      answer = (number1) + (number2)
     
   end 
   
