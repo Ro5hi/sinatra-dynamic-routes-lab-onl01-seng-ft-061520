@@ -31,6 +31,8 @@ end
     
     answer = "Unable to perform this operation."
     
+    case_params [:operation]
+    
     
   end 
   
