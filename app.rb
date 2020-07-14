@@ -32,8 +32,14 @@ end
     answer = "Unable to perform this operation."
     
     case_params [:operation]
-    when 'add'
+    when "add"
       answer = (number1 + number2).to_s
+      when "subtract"
+        answer = (number1 - number2).to_s 
+        when "divide"
+          answer = (number1 / number2).to_s 
+          when "multiply"
+            answer = (number1 * number2).to_s
     
   end 
   
