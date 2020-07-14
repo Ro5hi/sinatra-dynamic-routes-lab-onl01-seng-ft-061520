@@ -40,6 +40,7 @@ end
           (number1 / number2).to_s 
           when "multiply"
             (number1 * number2).to_s
+            
           end 
         end 
       end 
