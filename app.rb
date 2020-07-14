@@ -40,8 +40,9 @@ end
           answer = (number1 / number2).to_s 
           when "multiply"
             answer = (number1 * number2).to_s
-    
-  end 
+          end 
+        end 
+      end 
   
   
 
