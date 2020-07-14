@@ -32,7 +32,8 @@ end
     answer = "Unable to perform this operation."
     
     case_params [:operation]
-    
+    when 'add'
+      
     
   end 
   
