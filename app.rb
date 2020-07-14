@@ -35,7 +35,7 @@ end
     when "add"
       answer = (number1 + number2).to_s
       when "subtract"
-        answer = (number1 - number2).to_s 
+        (answer = number1 - number2).to_s 
         when "divide"
           (number1 / number2).to_s 
           when "multiply"
