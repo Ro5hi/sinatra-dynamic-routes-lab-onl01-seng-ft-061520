@@ -25,22 +25,22 @@ end
     "#{params[:word1]} #{params[:word2]} #{params[:word3]} #{params[:word4]} #{params[:word5]}."
   end 
   
-  get '/:operation/:number1/:number2' do
-    number1 = params[:number1].to_i 
-    number2 = params[:number2].to_i 
+  # get '/:operation/:number1/:number2' do
+  #   number1 = params[:number1].to_i 
+  #   number2 = params[:number2].to_i 
     
-    answer = "Unable to perform this operation."
+  #   answer = "Unable to perform this operation."
     
-    case_params [:operation]
-    when "add"
-      (number1 + number2).to_s
-      when "subtract"
-        (number1 - number2).to_s 
-        when "divide"
-          (number1 / number2).to_s 
-          when "multiply"
-            (number1 * number2).to_s
+  #   case_params [:operation]
+  #   when "add"
+  #     (number1 + number2).to_s
+  #     when "subtract"
+  #       (number1 - number2).to_s 
+  #       when "divide"
+  #         (number1 / number2).to_s 
+  #         when "multiply"
+  #           (number1 * number2).to_s
             
-          end 
-        end 
-      end 
+  #         end 
+  #       end 
+  #     end 
